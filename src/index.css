@@ -1,0 +1,48 @@
+@tailwind base;
+
+
+
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+  .max-width{
+    @apply max-w-[1440px] mx-auto lg:px-16 md:px-10 px-4
+  }
+
+}
+@font-face {
+  font-family: "Regular";
+  src: url("Poppins-Regular");
+ 
+}
+@font-face {
+  font-family: "Medium";
+  src: url("Poppins-Medium");
+ 
+}
+@font-face {
+  font-family: "Black";
+  src: url("Poppins-Black");
+ 
+}
+@font-face {
+  font-family: "Regular";
+  src: url("Resgak-Regular");
+ 
+}
+@font-face {
+  font-family: "Medium";
+  src: url("Resgak-Medium");
+ 
+}
+@font-face {
+  font-family: "SemiBold";
+  src: url("Resgak-SemiBold");
+ 
+}
+@font-face {
+  font-family: "Bold";
+  src: url("Resgak-Bold");
+ 
+}
